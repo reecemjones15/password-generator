@@ -1,0 +1,32 @@
+<main>
+    <h1 class="header">Password Generator</h1>
+
+    <input class="result" spellcheck="false" [value]="password">
+
+    <div class="d-flex">
+        <div class="length-container">
+            <label class="text-label">Password Length</label>
+            <div class="d-flex">
+                <input type="number" (input)="onChangeLength($event.target!)" [value]="length" min="1" max="32"
+                    class="number-input">
+                <input type="range" (input)="onChangeLength($event.target!)" [value]="length" min="0" max="32"
+                    class="range-input">
+            </div>
+        </div>
+
+        <div class="checkbox-container">
+            <div class="d-flex">
+                <input type="checkbox" (change)="onChangeUseLetters()" [checked]="includeLetters">
+                <label for="">Letters</label>
+            </div>
+            <div class="d-flex">
+                <input type="checkbox" (change)="onChangeUseNumbers()" [checked]="includeNumbers">
+                <label for="">Numbers</label>
+            </div>
+            <div class="d-flex">
+                <input type="checkbox" (change)="onChangeUseSymbols()" [checked]="includeSymbols">
+                <label for="">Symbols</label>
+            </div>
+        </div>
+    </div>
+</main>

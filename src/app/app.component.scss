@@ -1,0 +1,69 @@
+main {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  --tw-shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 transparent;
+  box-shadow: var(--tw-shadow);
+  border-radius: 12px;
+  padding: 10px 30px 30px 30px;
+  margin-top: 40px;
+  background: white;
+}
+
+.header {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.result {
+  width: 100%;
+  height: 40px;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.d-flex {
+  display: flex;
+}
+
+label {
+  display: block;
+}
+
+.checkbox-container {
+  margin-left: 30px;
+}
+
+.length-container {
+  width: 250px;
+}
+
+.text-label {
+  display: block;
+  width: 100%;
+}
+
+.number-input {
+  display: block;
+  width: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.range-input {
+  width: 100%;
+  cursor: pointer;
+}
+
+.text-label {
+  font-weight: 200;
+}
