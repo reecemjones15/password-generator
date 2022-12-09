@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
+This is a simple password-generator application. It is part of my [Angular Training Projects](https://github.com/reecemjones15/angular-training-projects/).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
